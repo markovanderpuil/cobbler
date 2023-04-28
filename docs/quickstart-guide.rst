@@ -70,7 +70,8 @@ downloaded. Usually, this will be the same IP as the server setting.
 
 .. code::
 
-    next_server: 127.0.0.1
+    next_server_v4: 127.0.0.1
+    next_server_v6: "::1"
 
 
 DHCP management and DHCP server template
